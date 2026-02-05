@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Luyện giải 20 đề | Luyện ôn TACC cùng Ms. Thu</title>
+
+  <style>
+    /* ===== RESET ===== */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      height: 100vh;
+      font-family: "Segoe UI", Arial, sans-serif;
+      background: #f4f6f9;
+      color: #333;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      height: 60px;
+      background: linear-gradient(90deg, #2c7be5, #4dabf7);
+      color: #fff;
+
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      padding: 0 20px;
+    }
+
+    header h1 {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    header button {
+      background: #fff;
+      color: #2c7be5;
+      border: none;
+      padding: 6px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      cursor: pointer;
+    }
+
+    /* ===== LAYOUT ===== */
+    .layout {
+      height: calc(100vh - 60px);
+      display: flex;
+    }
+
+    /* ===== SIDEBAR ===== */
+    .sidebar {
+      width: 220px;
+      background: #1f2937;
+      padding: 10px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      overflow: hidden;
+    }
+
+    .sidebar a {
+      display: block;
+      padding: 7px 10px;
+      margin-bottom: 4px;
+
+      font-size: 13px;
+      color: #e5e7eb;
+      text-decoration: none;
+
+      border-radius: 6px;
+    }
+
+    .sidebar a:hover {
+      background: #374151;
+    }
+
+    .sidebar hr {
+      border: none;
+      border-top: 1px solid #374151;
+      margin: 6px 0;
+    }
+
+    .sidebar .hot {
+      background: #dc2626;
+      color: #fff;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    /* ===== MAIN ===== */
+    main {
+      flex: 1;
+      background: #f9fafb;
+      padding: 24px;
+      overflow-y: auto;
+    }
+
+    main h2 {
+      font-size: 24px;
+      margin-bottom: 6px;
+    }
+
+    main p {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    /* ===== MENU TEST – PHONG CÁCH ĐỀ THI ===== */
+    .test-menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 14px;
+    }
+
+    .test-menu a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      height: 56px;
+
+      background: #ffffff;
+      border: 2px solid #cbd5e1;
+      border-radius: 4px;
+
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 15px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+
+      color: #1f2937;
+    }
+
+    .test-menu a:hover {
+      background: #f1f5f9;
+      border-color: #2c7be5;
+      color: #2c7be5;
+    }
+  </style>
+</head>
+
+<body>
+
+<!-- ===== HEADER ===== -->
+<header>
+  <h1>Luyện ôn thi TIẾNG ANH CÔNG CHỨC 2026 cùng Ms. Thu - 094.264.2312</h1>
+  <button>Đăng nhập / Đăng ký</button>
+</header>
+
+<!-- ===== LAYOUT ===== -->
+<div class="layout">
+
+  <!-- ===== SIDEBAR ===== -->
+  <nav class="sidebar">
+    <div>
+      <a href="../chuyen-de-01/index.html">Chuyên đề 1</a>
+      <a href="../chuyen-de-02/index.html">Chuyên đề 2</a>
+      <a href="../chuyen-de-03/index.html">Chuyên đề 3</a>
+      <a href="../chuyen-de-04/index.html">Chuyên đề 4</a>
+      <a href="../chuyen-de-05/index.html">Chuyên đề 5</a>
+      <a href="../chuyen-de-06/index.html">Chuyên đề 6</a>
+      <a href="../chuyen-de-07/index.html">Chuyên đề 7</a>
+      <a href="../chuyen-de-08/index.html">Chuyên đề 8</a>
+      <a href="../chuyen-de-09/index.html">Chuyên đề 9</a>
+      <a href="../chuyen-de-10/index.html">Chuyên đề 10</a>
+      <a href="../chuyen-de-11/index.html">Chuyên đề 11</a>
+      <a href="../chuyen-de-12/index.html">Chuyên đề 12</a>
+      <a href="../chuyen-de-13/index.html">Chuyên đề 13</a>
+      <a href="../chuyen-de-14/index.html">Chuyên đề 14</a>
+      <a href="../chuyen-de-15/index.html">Chuyên đề 15</a>
+    </div>
+
+    <div>
+      <hr>
+      <a class="hot" href="../luyen-20-de/index.html">🔥 LUYỆN GIẢI 20 ĐỀ</a>
+    </div>
+  </nav>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main>
+	<!-- ===== BREADCRUMB ===== -->
+	<div class="breadcrumb">
+	  <a href="../home.html">Home</a> →
+	  <strong>LUYỆN GIẢI 20 ĐỀ THI</strong>
+	</div>
+    <h2>🔥 LUYỆN GIẢI 20 ĐỀ THI</h2>
+    <p>Hãy chọn Test để bắt đầu luyện đề.</p>
+
+    <div class="test-menu">
+      <a href="test-01/index.html">TEST 01</a>
+      <a href="test-02/index.html">TEST 02</a>
+      <a href="test-03/index.html">TEST 03</a>
+      <a href="test-04/index.html">TEST 04</a>
+      <a href="test-05/index.html">TEST 05</a>
+      <a href="test-06/index.html">TEST 06</a>
+      <a href="test-07/index.html">TEST 07</a>
+      <a href="test-08/index.html">TEST 08</a>
+      <a href="test-09/index.html">TEST 09</a>
+      <a href="test-10/index.html">TEST 10</a>
+      <a href="test-11/index.html">TEST 11</a>
+      <a href="test-12/index.html">TEST 12</a>
+      <a href="test-13/index.html">TEST 13</a>
+      <a href="test-14/index.html">TEST 14</a>
+      <a href="test-15/index.html">TEST 15</a>
+      <a href="test-16/index.html">TEST 16</a>
+      <a href="test-17/index.html">TEST 17</a>
+      <a href="test-18/index.html">TEST 18</a>
+      <a href="test-19/index.html">TEST 19</a>
+      <a href="test-20/index.html">TEST 20</a>
+    </div>
+  </main>
+
+</div>
+
+</body>
+</html>
