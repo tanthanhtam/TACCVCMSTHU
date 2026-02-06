@@ -1,0 +1,158 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Tahoma, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* NỀN */
+body {
+  background: #e6e6e6;
+  color: #000;
+}
+
+/* HEADER */
+header {
+  background: #1f4e79;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  border-bottom: 3px solid #163a5f;
+}
+
+header h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header p {
+  font-size: 13px;
+}
+
+/* KHUNG CHÍNH */
+.container {
+  width: 920px;
+  margin: 15px auto;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #bfbfbf;
+}
+
+/* THANH THÔNG TIN */
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f2f2f2;
+  border: 1px solid #c9c9c9;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+}
+
+#timer {
+  font-weight: bold;
+  color: #b30000;
+}
+
+/* NÚT */
+button {
+  border: 1px solid #7f7f7f;
+  background: #e6e6e6;
+  padding: 5px 14px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d9d9d9;
+}
+
+/* CÂU HỎI */
+#question-box {
+  border: 1px solid #bfbfbf;
+  padding: 12px;
+  background: #fff;
+}
+
+#question-box h3 {
+  font-size: 15px;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+#question-box p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+/* ĐÁP ÁN */
+#question-box label {
+  display: block;
+  padding: 6px 8px;
+  border-bottom: 1px dotted #bfbfbf;
+  cursor: pointer;
+}
+
+#question-box input[type="radio"] {
+  margin-right: 6px;
+}
+
+#question-box label:hover {
+  background: #f2f2f2;
+}
+
+/* ĐIỀU HƯỚNG */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+/* DANH SÁCH CÂU */
+#question-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  border-top: 1px solid #bfbfbf;
+  padding-top: 8px;
+  margin-top: 10px;
+}
+
+#question-list button {
+  width: 32px;
+  height: 32px;
+  border: 1px solid #7f7f7f;
+  background: #fff;
+  font-size: 13px;
+}
+
+/* CÂU ĐÃ CHỌN */
+#question-list button.done {
+  background: #1f4e79;
+  color: #fff;
+  border-color: #1f4e79;
+}
+
+/* KẾT QUẢ */
+#result {
+  margin-top: 12px;
+  padding: 10px;
+  background: #f2f2f2;
+  border: 1px solid #bfbfbf;
+  font-weight: bold;
+}
+
+/* LỜI GIẢI */
+.explain {
+  margin-top: 10px;
+  padding: 8px;
+  background: #f2f2f2;
+  border: 1px solid #bfbfbf;
+  line-height: 1.4;
+}
+
+/* ẨN */
+.hidden {
+  display: none;
+}
