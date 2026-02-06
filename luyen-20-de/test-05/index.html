@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Luyện ôn thi Tiếng Anh – Ms. Thu Nguyễn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h2>Luyện ôn thi Tiếng Anh</h2>
+  <p>Ms. Thu Nguyễn – 0942642312</p>
+</header>
+<!-- ===== BREADCRUMB ===== -->
+<div class="breadcrumb">
+  <a href="../../home.html">Home</a> →
+  <a href="../index.html">Luyện giải 20 đề</a> →
+  <strong>Test 05</strong>
+</div>
+
+<div class="container">
+  <div class="info">
+    <span id="timer">Thời gian: 30:00</span>
+    <button onclick="submitTest()">Nộp bài</button>
+  </div>
+
+  <div id="question-box"></div>
+
+  <div class="nav">
+    <button onclick="prevQuestion()">Trước đó</button>
+    <button onclick="nextQuestion()">Tiếp theo</button>
+  </div>
+
+  <div id="question-list"></div>
+
+  <div id="result" class="hidden"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
